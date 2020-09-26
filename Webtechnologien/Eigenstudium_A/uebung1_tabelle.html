@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelle</title>
+</head>
+
+<body>
+    <h1>Patientenverwaltung</h1>
+    <p>Willkommen im BSA-KIS (BSA Krankenhausinformationssystem!)</p>
+    <h2>Neuen Patienten Anlegen</h2>
+    <form action="mailto:if20b014@technikum-wien.at" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="Vorname">Vorname:</label></td>
+                <td><input  type="text" id="Vorname" name="Vorname" placeholder="Max" required>*</td>
+            </tr>
+
+            <tr>
+                <td><label for="Nachname">Nachname:</label></td>
+                <td><input type="text" id="Nachname" name="Nachname" placeholder="Mustermann" required>*</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-Mail-Adresse:</label></td>
+                <td><input type="email" id="email" name="E-Mail-Adresse" placeholder="email@mail.com" required>*</td>
+            </tr>
+            <tr>
+                <td><label for="SVN">SVN:</label></td>
+                <td><input type="text" id="SVN" minlength ="4" maxlength="4" pattern="\d*" placeholder="Genau 4 stellige Nummer" required>*</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Geburtstagdatum">Geburtstagdatum:</label></td>
+                <td><input type="date" id="Geburtstagdatum" name="Geburtstagdatum" required >*</td> <!-- Placeholder funktioniert nicht, vl mit JS oder so-->
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="male">Geschlecht:</label></td> <!--Welches For Attribut würde man dafür stattdessen verwenden?-->
+                <td>
+                    <input type="radio"  id="male" name="Geschlecht" value="Männlich">
+                    <label for="male"> männlich</label>
+                    <input type="radio"  id="female" name="Geschlecht" value="Weiblich">
+                    <label for="female"> weiblich</label>
+                    <input type="radio"  id="no_input" name="Geschlecht" value="k.A." checked>
+                    <label for="no_input"> keine Angabe</label>
+                    </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="D_Blutdruck">Diastolischer Blutdruck:</label></td>
+                <td><input type="text"  id="D_Blutdruck" pattern = "\d*" name="D_Blutdruck" placeholder ="max. drei stellige Nummer" maxlength="3" required>*</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="S_Blutdruck">Systolischer Blutdruck:</label></td>
+                <td><input type="text"  id="S_Blutdruck" pattern = "\d*" name="S_Blutdruck" placeholder ="max. drei stellige Nummer" maxlength="3" required>*</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Puls">Puls: </label></td>
+                <td><input type="text" id="Puls" pattern = "\d*" name="Puls" placeholder ="max. drei stellige Nummer" maxlength="3" required>*</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Anmerkungen">Anmerkungen:</label></td>
+                <td>
+                    <textarea  id="Anmerkungen" name="Anmerkungen" rows="3" cols="50"
+                        placeholder="Geben Sie hier ihre zusätzlichen Anmerkungen ein"></textarea>
+                </td>
+            <tr>
+                <td><input type="submit" value="Abschicken">
+                    <td><button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+
+<body>
+    <h1>Patientenverwaltung</h1>
+    <p>Willkommen im BSA-KIS (BSA Krankenhausinformationssystem!)</p>
+    <h2>Neuen Patienten Anlegen</h2>
+    <form action="mailto:if20b014@technikum-wien.at" method="POST" enctype="text/plain">
+        <label for="Vorname">Vorname:</label>
+        <input type="text" id="Vorname" name="Vorname" placeholder="Max" required>*<br>
+        <label for="Nachname">Nachname: </label>
+        <input type="text" id="Nachname" name="Nachname" placeholder="Mustermann" required>*<br>
+        <label for="email">E-Mail-Adresse:
+            <input type="email" id="email" name="E-Mail-Adresse" placeholder="email@mail.com" required>*</label><br>
+        <label for="SVN">SVN:
+            <input type="text" id="SVN" name="SV-Nummer" minlength="4" maxlength="4" pattern="\d*"
+                placeholder="Genau 4 stellige Nummer" required>*</label><br>
+        <label for="Geburtstagsdatum">Geburtstagdatum:</label>
+            <input type="date" id="Geburtstagsdatum" name="Geburtstagdatum" required >*<br>
+        <!-- Placeholder funktioniert nicht, vl mit JS oder so-->
+
+
+        <label for="male">Geschlecht:</label>
+        <input type="radio" id="male" name="Geschlecht" value="Männlich">
+        <label for="male"> männlich</label>
+        <input type="radio" id="female" name="Geschlecht" value="Weiblich">
+        <label for="female"> weiblich</label>
+        <input type="radio" id="no_input" name="Geschlecht" value="k.A." checked>
+        <label for="no_input"> keine Angabe</label>
+        <br>
+        <label for="D_Blutdruck">Diastolischer Blutdruck:</label>
+        <input type="text" id="D_Blutdruck" name="D_Blutdruck" pattern="\d*" placeholder="max. drei stellige Nummer" maxlength="3"
+            required>*<br>
+        <label for="S_Blutdruck">Systolischer Blutdruck: </label>
+        <input type="text" id="S_Blutdruck" name="S_Blutdruck" pattern="\d*" placeholder="max. drei stellige Nummer" maxlength="3"
+            required>*<br>
+        <label for="Puls">Puls: </label>
+        <input type="text" id="Puls" name="Puls" pattern="\d*" placeholder="max. drei stellige Nummer" required>*<br>
+        <label for="Anmerkungen">Anmerkungen:</label>
+        <textarea id="Anmerkungen" name="Anmerkungen" rows="3" cols="50"
+            placeholder="Geben Sie hier ihre zusätzlichen Anmerkungen ein"></textarea>
+        <input type="submit" value="Abschicken">
+        <button type="reset">Reset</button>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+ORF.at website:
+
+Block Elemente: starts on new line, takes full width available (all the way to the right side of screen)
+    - <h1-6> -> Überschriften tags, h1/h2/h3 sind vorhanden
+    - <div = Wrapper> -> enthält gesamte website außer JS
+    - <header> -> Container für die Logo, Navigation, 
+    - <nav> block mit einzelnen Navigationselementen
+    - <main> Element -> container für alle Hauptelemente für die website
+    - <ul> Elemente -> container für alle line-Elemente in der Liste
+    - <li> Elemente mit einzelnen Links in der Navigationbar in <ul>
+    - <figure> tag über <picture> tag, umschließt sourceset mit bild
+    ...
+
+Inline Elemente: takes up as much width as necessary; no new line 
+    - <img> -> einzelne Bilder zb im header das Logo
+    - <a> tags für hyperlinks wie zb. innerhalb des <li> elements in nav
+    - <button> element mit dem <span> element "Navigation"
+    - <span> element innerhalb des button
+    - <script> elemente für JS? 
+    - <input type = checkbox> für die cookies
+    - <label> -> Name für die Checkbox
+    ...
+    

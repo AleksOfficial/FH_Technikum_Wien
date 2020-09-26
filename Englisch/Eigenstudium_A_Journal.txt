@@ -1,0 +1,46 @@
+
+1&8. -> Increase in poverty - tech companies gain more and more power; Regulations have to shift towards a universal base income as intelligence that is non human increases exponentially,
+
+2. -> Through plattforms and ML, resource use can be better optimized and therefore more fairly distributed
+
+3. -> Improve: ML used now in diagnosis for diseases, most of the time better than doctors in a single field, but as time passes, increase in technological breakthroughs; Better management systems for insurance/hospitals/goverments, better tracking of medical data etc.
+
+4. -> Khan Academy/Wikipedia/The Odin Project/Youtube Tutorials/FreeCodeCamp/Math channels/OpenCourseWare MIT/... -> the best content survives at a cost of 0 €. bad teachers have competition
+
+5&10. -> Gender equality is already quite high and with technological progress, it is quite easy to expose inequality, more than before (Example -> Black Lives Matter Movement)
+
+6&7. -> tracking energy use/ water use/etc. = Information collection
+
+12 -> Foxcon example for cheap production and labor exploitation for electronic devices
+
+13 -> access to information on topic; profit from that information; ethical dimensions and raise awareness
+
+14 -> Plastic pollution through disposal of plastic components of electronic devices. positive: assist systems with prediction models of waterflow and predict pollution movement; Raise awareness to public
+
+15 -> use the benefits in all aspects technology can help -> tracing animals
+
+16 -> Cyberwarfare & Security issues/Hacking of twitter accounts can lead to misscommunication - generally more negative then positive between institutions, but help productivity
+
+17 -> international communication faster; new ways of communication; 
+
+Level 1 -> Direct effect (negative) = Production and disposal
+Level 2 -> effects arise from the application of  (Positive/negative) f.e. optimization/obsolescence effects
+Level 3 -> systemic effects = long term impacts on socio-economic systems =positive/negative (sustainable patterns of production/consumption; new emerging risks)
+
+ways of accelerations to achievement of sdg:
+- help save costs in health/banking/education
+- point out awareness of new technologies at a enormous speed through social networks/mobile tech/other
+- global information flows enhancing
+- low cost platforms can be built
+
+c1 = Role of goverment/stakeholders to establish information society
+c2 = information infrastructure = essential foundation
+c3 = access to information
+c4 = capacity building -> profit from information society
+c5 = confidence/security in those systems
+c6 = increase confidence in Information society
+c7 = benefits in all aspects of life
+c8 = cultural diversity
+c9 = media
+c10 = ethical dimensions 
+c 11 international and regional cooperation

@@ -1,0 +1,13 @@
+Überschrift: Browser-Tool blendet unliebsame Facebook-Inhalte aus
+
+Zwischenüberschrift: Browser-Erweiterung blendet bestimmte Bilder auf Twitter und Facebook aus
+Absatz: Ein relativ simples Tool namens "Unwhatever.me" will es Facebook- und Twitter-Usern ermöglichen, unliebsame Inhalte einfach auszublenden. Die Browser-Erweiterung für Google Chrome ersetzt Inhalte durch Bilder von Katzen, Speck, Schauspielern oder Tieren - die Auswahl liegt beim User.
+
+Zwischenüberschrift: Speck statt Babys
+Absatz: Nutzer können entweder eines der vorgefertigten Tools installieren und konfigurieren oder die "unbespielte" Erweiterung nutzen und zur Gänze selbst festlegen, was ausgeblendet wird. Dabei kann man bestimmte Stichwörter angeben, die ausgeblendet werden sollen und stattdessen durch Bilder ersetzt werden. Den Feed zu Bildern kann man dabei selbst festlegen – zum Beispiel einen RSS-Feed eines Instagram-Accounts oder den Feed nach einem bestimmten Suchwort. Wer lieber Speck statt Babys anschaut, kann also einen Bacon-Feed von Instagram statt Baby-Fotos anzeigen lassen.
+
+Zwischenüberschrift: Keine Essensfotos?
+Absatz: Beispielsweise gibt es "Unbaby.me" für jene, die keine Kinder- und Babyfotos oder Familien-Updates sehen wollen. "Unspoiler.me" verhindert Spoiler von TV-Serien und Filmen, daneben gibt es noch Tools gegen religiöse Inhalte, politische Inhalte und Urlaubsfotos bzw. -postings. Sogar gegen Essensfotos kann man sich wappnen. Da das Tool auf Englisch ist, müssen für deutschsprachige User die Wörter zur Gänze übersetzt oder ersetzt werden – dies ist in den Einstellungen aber möglich. (iw, derStandard.at, 18.9.2013)
+
+Links:
+Unwhatever.me (http://http://unwhatever.me/)
