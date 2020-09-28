@@ -1,0 +1,88 @@
+/* Add. Fonts:
+font-family: 'Press Start 2P', cursive;
+font-family: 'Orbitron', sans-serif;
+
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+   
+    
+}
+h1{
+    font-family: "Press Start 2P", cursive;
+    font-size: 65px;
+    color:forestgreen;
+    width: auto;
+    text-align: center;
+    
+}
+.Navigation{ 
+    background-color: darkblue;
+    padding:15px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top:0;
+    
+}
+li a:hover{
+    background-color: blue;
+    color: red;
+}
+li{ 
+    
+    display:inline-block;
+    list-style-type: None;
+    
+}
+
+ li a{
+    text-decoration: none;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-align: center;
+    padding: 15px;
+    color:white;
+    font-family: Orbiton, "Open Sans";
+    font-size: large;
+}
+h2{
+    width:80%;
+    background-color: rgb(220,220,220,0.3);
+    border-radius: 5px;
+    font-family: 'Press Start 2P';
+    color:green;
+    
+
+}
+#Schlafzimmer
+{
+    height: 600px;
+    background-image:url("Beispielbilder/img/schlafzimmer.jpg");
+    background-size:cover;
+    border-bottom:10px solid gray;
+    color:white;
+    text-align: center;    
+}
+
+.content_left
+{
+    position: relative;    
+    top: auto;
+    
+}
+#Wohnzimmer
+{
+    background-image: url("Beispielbilder/img/wohnzimmer.jpg");
+    background-size: cover;
+    border-bottom:10px solid gray;
+}

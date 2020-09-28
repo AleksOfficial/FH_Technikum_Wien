@@ -1,0 +1,142 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height:400px;
+    background-image: url("Beispielbilder/img/smart-home-header.jpg" );
+    background-size:cover;
+    background-position-y: -250px;
+    text-align:center;
+}
+
+h1{
+    margin-right: 33%;
+    font-family: "open sans";
+    font-size: 65px;
+    color:white;
+    width: auto;
+    
+    
+}
+
+li a:hover{
+    background-color: blue;
+    color: red;
+}
+li a:active{
+    background-color: #0017BA;
+    color: yellow;
+
+}
+li{ 
+    
+    display:inline-block;
+    list-style-type: None;
+    
+}
+
+ li a{
+    text-decoration: none;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    font-family: Orbiton, "Open Sans";
+    font-size: large;
+}
+h2{
+    margin-left:10%;
+    width:80%;
+    background-color: rgb(75,75,75,0.6);
+    border-radius: 5px;
+    font-family: Montserrat, 'Open Sans';
+    font-size:30px;
+}
+.Navigation{ 
+    background-color:#001540;
+    padding:10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top:0;
+    
+}
+.room{
+    background-color: white;
+    padding:50px;
+    height: 600px;
+    background-size:cover;
+    border-bottom:10px solid gray;
+    color:white;
+    text-align: center;
+
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+}
+.content_left
+{
+    padding-top:20px;
+    border-radius: 5px;
+    height:250px;
+    width:250px;
+    margin-left:10%;
+    background-color:white;
+    color:black;    
+    font-family: "Open Sans";
+    box-shadow:0 5px 7px 0 rgba(0, 0, 0, 0.4);
+}
+.content_middle
+{
+
+    border-radius: 5px;
+    margin-left:20%;
+    margin-right:20%;
+    height:250px;
+    width:250px;
+    background-color:white;
+    color:black;    
+    font-family: "Open Sans";
+    box-shadow:0 5px 7px 0 rgba(0, 0, 0, 0.4);
+    
+}
+.content_right
+{   padding-top:20px;
+    text-align: center;
+    border-radius: 5px;
+    height:250px;
+    width:400px;
+    margin-right:5%;
+    background-color:white;
+    color:black;    
+    font-family: "Open Sans";
+    box-shadow:0 5px 7px 0 rgba(0, 0, 0, 0.4);
+}
+
+#return_home{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#Schlafzimmer
+{
+    background-image:url("Beispielbilder/img/schlafzimmer.jpg");
+    background-position-y: -250px;
+}
+#Esszimmer
+{
+    background-image: url("Beispielbilder/img/esszimmer.jpg");
+}
+#Außenbereich{
+    background-image: url("Beispielbilder/img/aussen2.jpg");
+    background-position-y: -400px;
+}
