@@ -63,7 +63,7 @@ h2{
 }
 .Navigation{ 
     background-color:#001540;
-    padding:10px;
+    padding: 10px 0 10px 0;
     text-align: center;
     width: 100%;
     position: sticky;
