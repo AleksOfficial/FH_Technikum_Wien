@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive_uebung1_css.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Menü</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Schlafzimmer">Schlafzimmer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Wohnzimmer">Wohnzimmer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Esszimmer">Esszimmer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Küche">Küche</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Außenbereich">Außenbereich</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <h1>Smart Home Controller App v.1.0</h1>
+            <p>BSA, 2. Semester</p>
+            <p>Demo-App</p>
+    </header>
+
+    <main>
+        <div id="welcome">
+            <div class="container">
+                <div class="row">
+                    <h2>Willkommen in Ihrer virutellen Wohnungszentrale!</h2>
+                </div>
+                <div class="row">
+                    <h3>Wir ermöglichen Ihnen die volle Kontrolle über ihr Smart Home</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Datenzugriff!</h4><a href="#"><img class="img-thumbnail" src="img/einstellungen.png"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet culpa earum natus
+                            maiores,
+                            molestias, voluptatibus ullam aliquam aperiam eligendi voluptas excepturi non nobis, esse
+                            quaerat
+                            perferendis repudiandae corrupti fuga!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Geräte unabhängig!</h4><a href="#"><img class="img-thumbnail"
+                                src="img/pc_tablet_smartphone.jpg"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet culpa earum natus
+                            maiores,
+                            molestias, voluptatibus ullam aliquam aperiam eligendi voluptas excepturi non nobis, esse
+                            quaerat
+                            perferendis repudiandae corrupti fuga!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Rund um die Uhr!</h4><a href="#"><img class="img-thumbnail" src="img/clock.png"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet culpa earum natus
+                            maiores,
+                            molestias, voluptatibus ullam aliquam aperiam eligendi voluptas excepturi non nobis, esse
+                            quaerat
+                            perferendis repudiandae corrupti fuga!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="return_home">
+            <a href="#"><img src="./img/zuhause.png" width="76" height="76" alt="Return to Home"></a>
+        </div>
+        <section class="room" id="Schlafzimmer">
+            <div class="container">
+                <h2>Schlafzimmer</h2>
+                <div class="container-fluid row w-100">
+                    <div class="offset-md-1 col-md-2 SEAcol">
+
+
+                        <h3>Licht</h3>
+                        <img src="./img/light_off.png" alt="Lights are off">
+                        <p>Licht aus.</p>
+                    </div>
+                    <div class="offset-md-1 col-md-2 SEAcol">
+                        <h3>Temperatur</h3>
+                        <img src="./img/temp_low.jpg" alt="Temp is low">
+                        <p>Temperatur ist niedrig.</p>
+
+                    </div>
+                    <div class="offset-md-1 col-md-4 SEAcol">
+                        <h3>Details</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo facilis
+                            corporis,
+                            magni incidunt similique. Minima, quod architecto voluptatum ad repellendus suscipit
+                            quisquam
+                            praesentium, inventore quis, mollitia explicabo aliquam! Perspiciatis.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="Wohnzimmer">
+            <div class="container">
+                <h2>Wohnzimmer</h2>
+                <div class="container-fluid row w-100">
+                    <div class="col-md-4">
+                        <h3>Licht</h3>
+                        <img src="./img/light_on.png" alt="Lights are off">
+                        <p>Licht an.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Temperatur</h3>
+                        <img src="./img/temp_low.jpg" alt="Temp is low">
+                        <p>Temperatur ist niedrig.</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Details</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo facilis
+                            corporis,
+                            magni incidunt similique. Minima, quod architecto voluptatum ad repellendus suscipit
+                            quisquam
+                            praesentium, inventore quis, mollitia explicabo aliquam! Perspiciatis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="room" id="Esszimmer">
+            <div class="container">
+                <h2>Esszimmer</h2>
+                <div class="container-fluid row w-100">
+                    <div class="offset-md-1 col-md-2 SEAcol">
+                        <h3>Licht</h3>
+                        <img src="./img/light_off.png" alt="Lights are off">
+                        <p>Licht aus.</p>
+                    </div>
+                    <div class="offset-md-1 col-md-2 SEAcol">
+                        <h3>Temperatur</h3>
+                        <img src="./img/temp_high.jpg" alt="Temp is high">
+                        <p>Temperatur ist hoch.</p>
+
+                    </div>
+                    <div class="offset-md-1 col-md-4 SEAcol">
+                        <h3>Details</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo facilis
+                            corporis,
+                            magni incidunt similique. Minima, quod architecto voluptatum ad repellendus suscipit
+                            quisquam
+                            praesentium, inventore quis, mollitia explicabo aliquam! Perspiciatis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="Küche">
+            <div class="container">
+                <h2>Küche</h2>
+                <div class="container-fluid row w-100">
+                    <div class="col-md-4">
+                        <h3>Licht</h3>
+                        <img src="./img/light_on.png" alt="Lights are off">
+                        <p>Licht an.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Temperatur</h3>
+                        <img src="./img/temp_high.jpg" alt="Temp is high">
+                        <p>Temperatur ist hoch.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Details</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo facilis
+                            corporis,
+                            magni incidunt similique. Minima, quod architecto voluptatum ad repellendus suscipit
+                            quisquam
+                            praesentium, inventore quis, mollitia explicabo aliquam! Perspiciatis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="room" id="Außenbereich">
+            <div class="container">
+                <h2>Außenbereich</h2>
+                <div class="container-fluid row w-100">
+                    <div class="offset-md-1 col-md-2 SEAcol">
+                        <h3>Licht</h3>
+                        <img src="./img/light_off.png" alt="Lights are off">
+                        <p>Licht aus.</p>
+                    </div>
+                    <div class="offset-md-1 col-md-2 SEAcol">
+                        <h3>Temperatur</h3>
+                        <img src="./img/temp_low.jpg" alt="Temp is low">
+                        <p>Temperatur ist niedrig.</p>
+
+                    </div>
+                    <div class="offset-md-1 col-md-4 SEAcol">
+                        <h3>Details</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo facilis
+                            corporis,
+                            magni incidunt similique. Minima, quod architecto voluptatum ad repellendus suscipit
+                            quisquam
+                            praesentium, inventore quis, mollitia explicabo aliquam! Perspiciatis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
