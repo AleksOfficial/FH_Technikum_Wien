@@ -35,8 +35,8 @@ int valid_operation_division(int ergebnis, int eingabe)
 }
 int not_valid_operation(int ergebnis, int eingabe)
 {
-  int check = ergebnis-eingabe;
-  if(check == 1 || check == (-1))
+  int check = ergebnis - eingabe;
+  if (check == 1 || check == (-1))
   {
     printf("Einer der Operanden ist um 1 kleiner oder groesser als der andere\n");
     return 1;
@@ -45,7 +45,7 @@ int not_valid_operation(int ergebnis, int eingabe)
 }
 char choose_option(int ergebnis, int eingabe)
 {
-  
+
   printf("Operation ist ungueltig!\n");
   if (eingabe == 0) //Fehler: Division durch 0
   {
@@ -58,7 +58,7 @@ char choose_option(int ergebnis, int eingabe)
     int quotient, rest;
     rest = modulo(ergebnis, eingabe);
     quotient = division(ergebnis, eingabe);
-    printf("Ergebnis ist %d mit %d Rest. Soll gerundet (r), abgeschnitten (c) oder verworfen (x) werden?\n", quotient, rest); 
+    printf("Ergebnis ist %d mit %d Rest. Soll gerundet (r), abgeschnitten (c) oder verworfen (x) werden?\n", quotient, rest);
     scanf(" %c", &choice);
     return choice;
   }
@@ -79,64 +79,63 @@ int main()
     if (operator!= 'x')
     {
       scanf("%d", &eingabe);
-      if(not_valid_operation(ergebnis,eingabe)) //Fehlercheck: Operand um 1 groesser/kleiner
+      if (not_valid_operation(ergebnis, eingabe)) //Fehlercheck: Operand um 1 groesser/kleiner
       {
         fehler++;
       }
       else
       {
-         switch (operator)
-      {
-      case '+':
-        ergebnis = addition(ergebnis, eingabe);
-        anzahl++;
-        break;
-      case '-':
-        ergebnis = subtraction(ergebnis, eingabe);
-        anzahl++;
-        break;
-      case '*':
-        ergebnis = multiplication(ergebnis, eingabe);
-        anzahl++;
-        break;
-      case '/':
-        if (valid_operation_division(ergebnis, eingabe)) 
+        switch (operator)
         {
+        case '+':
+          ergebnis = addition(ergebnis, eingabe);
           anzahl++;
-          ergebnis = division(ergebnis, eingabe);
-        }
-        else
-        {
-          fehler++;
-          choice = choose_option(ergebnis, eingabe);
-          switch (choice)
+          break;
+        case '-':
+          ergebnis = subtraction(ergebnis, eingabe);
+          anzahl++;
+          break;
+        case '*':
+          ergebnis = multiplication(ergebnis, eingabe);
+          anzahl++;
+          break;
+        case '/':
+          if (valid_operation_division(ergebnis, eingabe))
           {
-          case 'r':
-            if (modulo(ergebnis, eingabe) > (eingabe / 2)) //Aufrunden der Divison
-            {
-              ergebnis = (division(ergebnis, eingabe) + 1); 
-            }
-            else
-            {
-              ergebnis = division(ergebnis, eingabe);
-            }
-            fehler--; //weil anfangs Fehler erhöht wurde, muss er um eins reduziert werden und Anzahl um 1 erhöht werden
             anzahl++;
-            break;
-          case 'c':
             ergebnis = division(ergebnis, eingabe);
-            fehler--; //weil anfangs Fehler erhöht wurde, muss er um eins reduziert werden und Anzahl um 1 erhöht werden
-            anzahl++;
-            break;
-          case 'x':
-            break;
           }
+          else
+          {
+            fehler++;
+            choice = choose_option(ergebnis, eingabe);
+            switch (choice)
+            {
+            case 'r':
+              if (modulo(ergebnis, eingabe) > (eingabe / 2)) //Aufrunden der Divison
+              {
+                ergebnis = (division(ergebnis, eingabe) + 1);
+              }
+              else
+              {
+                ergebnis = division(ergebnis, eingabe);
+              }
+              fehler--; //weil anfangs Fehler erhöht wurde, muss er um eins reduziert werden und Anzahl um 1 erhöht werden
+              anzahl++;
+              break;
+            case 'c':
+              ergebnis = division(ergebnis, eingabe);
+              fehler--; //weil anfangs Fehler erhöht wurde, muss er um eins reduziert werden und Anzahl um 1 erhöht werden
+              anzahl++;
+              break;
+            case 'x':
+              break;
+            }
+          }
+          break;
         }
-        break;
-      }
       }
       printf("Ergebnis: %d\n", ergebnis);
-
     }
     else
     {
