@@ -1,0 +1,16 @@
+
+*{
+  font-family:"Open Sans";
+}
+table{
+  border-style: solid;
+  border-color:grey;
+  text-align: center;
+  font-size: larger;
+}
+td{
+  padding:5px;
+}
+.even{
+  background-color: lightskyblue;
+}
