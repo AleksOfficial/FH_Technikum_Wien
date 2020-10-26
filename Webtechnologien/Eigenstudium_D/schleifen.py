@@ -17,6 +17,7 @@ for i in range(3):
   print('<tr>')
   for j in range(5):
     if x%2:
+      str = f"{i} salkdjfasldkjf {}"
       print('<td class=uneven>{}</td>'.format(x))
     else:
       print('<td class=even>{}</td>'.format(x))
