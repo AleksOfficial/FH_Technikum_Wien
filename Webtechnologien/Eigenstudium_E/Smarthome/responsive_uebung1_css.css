@@ -1,0 +1,84 @@
+body{
+  padding-top:50px;
+}
+header{
+  height:450px;
+  background-image:url("img/smart-home-header.jpg");
+  background-position:top;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+header h1{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header p{
+  font-size: 1.5em;
+  color: white;
+}
+#welcome{
+  height: 650 px;
+  padding:10px 0px 10px 0px;
+  border-top: #AAAAAA 10px solid;
+
+}
+#welcome h4{
+  font-weight: bold;
+  margin:15px 0px 15px 0px;
+
+}
+#welcome p{
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 10px;
+}
+.room{
+    background-attachment: fixed;
+    height: 500px;
+    padding:50px 0px 50px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.room h2{
+    background-color: rgba(000, 000, 000, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.SEAcol{
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+#Wohnzimmer,#Küche{
+  padding:50px 0px 50px 0px;
+  border-top: #AAAAAA 10px solid;
+  
+}
+#return_home{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+}
+#Schlafzimmer{
+  background-image: url("img/schlafzimmer.jpg");
+}
+
+#Esszimmer{
+  background-image: url("img/esszimmer.jpg");
+  background-position: top;
+}
+#Außenbereich{
+  background-image: url("img/aussen2.jpg");
+}
+
