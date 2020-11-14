@@ -16,7 +16,7 @@ if(isset($_GET['del']))
   unset($_SESSION['eingabe'][$_GET['del']]);
 }
 if(isset ($_POST['keep_logged_in']))
-  $_COOKIE['staylogged']=setcookie("staylogged",true,time()+45,"/");
+  $_COOKIE['staylogged']=setcookie("staylogged",true,time()+600,"/");
 
 $username = "Karl";
 $password = "123"; 
