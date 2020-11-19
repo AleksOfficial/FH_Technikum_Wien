@@ -61,32 +61,41 @@ if (isset($_POST['submit']))
   <h1 class="display-4">Gallery 0.1</h1>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#Verzweiflung_pt1" data-slide-to="0" class="active"></li>
-    <li data-target="#exe_stops_working" data-slide-to="1"></li>
-    <li data-target="#Verzweiflung_pt1" data-slide-to="2"></li>
+    <?php
+  $var=0;
+    foreach(scandir(getcwd()."\\"."pics") as $value)
+    {
+      //if($var==2)
+      if($value==".." || $value ==".")
+      {
+        continue;
+      }        
+      echo '<li data-target="#carouselExampleCaptions" data-slide-to="'.$var. ($var==0 ?'" class="active"></li>':'"></li>');
+      $var++;
+    }
+    ?>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./pics/5fb5cb3520c6e3.91436359.jpg"class="d-block w-100" alt="makeitstop">
+  <?php
+  $var=0;
+    foreach(scandir(getcwd()."\\"."pics") as $value)
+    {
+      
+      if($value==".." || $value ==".")
+      {
+        continue;
+      }
+      $path="./pics/".$value;
+      echo '
+      <div class="carousel-item'.($var ==0 ? ' active">':'">').'
+      <img src="'.$path.'"class="d-block w-100" alt="Bild'.$var.'">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Verzweiflung_pt1</h5>
-       
+        <h5>Bild'.$var.'</h5>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./pics/5fb5c3de865d97.66153084.jpg"  class="d-block w-100" alt="pls">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>webtech.exe stopped working </h5>
-        
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./pics/5fb5cef697fec3.29587216.jpg" class="d-block w-100" alt="ty">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Verzweiflung_pt2</h5>
-        
-      </div>
-    </div>
+    </div>';        
+      $var++;
+    }
+    ?>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
