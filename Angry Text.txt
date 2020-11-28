@@ -1,16 +1,15 @@
 Sehr geehrte Damen und Herren,
-
+DATENBANKEN:
 Da wir bereits schon Feedback gegeben haben und sich trotzdem nichts an der Situation mit den Zwischentests während der Präsenzeinheiten geändert hat, möchte ich hiermit nochmal auf die Probleme mit diesem System hinweisen:
 
 Diese Art der Wissensüberprüfung hat keinerlei Relation mit dem tatsächlichen Wissensstand. Es handelt sich hier um ein Ratespiel, als um eine Wissensüberprüfung.
-- Wie der Kollege in Krasniqi mit seinem Post zeigte, sind die Datenbanken nicht dieselben. Wenn also die Hauptdatenbank geändert wird, ändert sich der Testcase. Referentielle Integrität, wie ich in diesem Fach gelernt habe, ist daher nicht gegeben. Es sind aber 50%(!) der Note davon abhängig.
+- Lösungen sind zum Großteil falsch, es sind aber 40%(!) der Note davon abhängig.
 - Auch aus der Angabe geht nicht klar hervor, wie sich das Jahresgehalt in diesem speziellen Beispiel zusammenstellt. Ein Jahresgehalt hat in der Realen Welt 14 Gehälter, im Beispiel jedoch nur 12. Es ist jedoch auch üblich, das Gehalt als Jahresgehalt zu speichern. Ich kann dies nicht überprüfen, da ich bei einer Überprüfung 25% der Punkte verliere. Wie soll man das wissen? Dafür ist der CodeRunner (zumindest in Prozedurale Sprachen) da.
 - Sollte die Ausgabe nicht mit der des CodeRunners übereinstimmen, gilt dasselbe: Man verliert die Hälfte der Punkte (!). Sollte die Angabe ungenau definiert sein (was sie ja bereits war), kann es wegen Formatierungsfehler sehr schnell zu einer negativen Note kommen.
 - Die Eigenstudiumsinhalte stimmen nicht mit den Tests überein. Es ist daher völlig sinnbefreit, sich die Inhalte anzusehen, da sie nicht Prüfungsrelevant sind. wie kann das sein? Jemand, der sich intensiv mit der Materie beschäftigt, bekommt trotzdem eine schlechte/negative Note, da der Stoff der übernächsten Einheit überprüft wird (???).
 - Die Formulierungen der Antworten sind zum Teil sehr undurchsichtig und unklar. Man muss sich mit der Semmantik der Frage beschäftigen, anstatt deren Inhalt, um sie wirklich zu verstehen.
-- Diese Zwischentests machen 40% der Note aus. Sie wurden nicht im Vorhinein getestet, was meiner Meinung nach eine absolute Katastrophe ist. Es ist nicht einsatzbereit und trotzdem bestimmt sie knapp 50% der Note. Unser Lektor ist mit dieser Art der Wissensüberprüfung auch nicht zufrieden, da der Stoff unstrukturiert vermittelt werden muss, um den Tests gerecht zu werden. Und das schlimme an der Sache ist, dass er es nicht ändern kann. 
-
-
+- Diese Zwischentests machen 40% der Note aus. Sie wurden nicht im Vorhinein getestet, was meiner Meinung nach eine absolute Katastrophe ist. Es ist nicht einsatzbereit und trotzdem bestimmt sie 40% der Note. Unser Lektor ist mit dieser Art der Wissensüberprüfung auch nicht zufrieden, da der Stoff unstrukturiert vermittelt werden muss, um den Tests gerecht zu werden. Und das schlimme an der Sache ist, dass er es nicht ändern kann (=externer Lektor). 
+- Coderunner: Dieser gibt nicht an, wo sich der Fehler im Code befindet (wie in Prozedurale Sprachen), er gibt jediglich zurück obs richtig oder falsch ist (man weiß nicht warum/wieso bzw sieht auch nicht welche Ausgabe gefordert ist oder wieviele Ergebnisse eine Datenbankquery zurückgeben muss). Das Aussage vom Datenbanken-Lektorenteam, die SQL Workbench zu verwenden und somit die Queries richtig zu haben, ist irrelevant da ich nicht vorher wissen kann, ob das Ergebnis mit dem geforderten übereinstimmt. (Ich verweise auf Prozedurale Sprachen, wo das wunderbar funktioniert)
 
 - Sämtliche Übungen, die zu Hause zu erledigen sind, werden nicht beurteilt. Somit unterliegt die Gesamtnote einem Zufallsprinzip und hat nichts mit Arbeit zu tun. Es entsteht kein Ansporn, Übungen des Selbststudiums zu erledigen, wenn man sowieso nur bestraft wird, überhaupt etwas zu erledigen. Das darf auf gar keinem Fall passieren. 
 
