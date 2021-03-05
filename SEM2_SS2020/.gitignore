@@ -1,0 +1,13 @@
+*.tlog
+*.ilk
+*.pdb
+*.sln
+*.idb
+*.log
+*.recipe
+.vs
+Zusatz_Masterarbeit
+*.vc*
+*.obj.enc
+*.obj
+Release
