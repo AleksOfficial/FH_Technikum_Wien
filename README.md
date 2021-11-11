@@ -5,4 +5,4 @@ Here is also a link to my OneNote. Here, I keep my notes on self-study segments 
 
 https://1drv.ms/u/s!AuARFSowCusXlExdE88xpBZqXMZO?e=JIDvjf
 
-
+Other Exercises might have been shared exercise. if that is the case, the solutions might be in one of the other repos. f.e. SS2020_ALGOS
